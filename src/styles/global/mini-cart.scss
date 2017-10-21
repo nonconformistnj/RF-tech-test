@@ -1,0 +1,48 @@
+
+.miniCart {
+    background: #333;
+    color: #fff;
+    max-width: 100%;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 2em 1em 1em;
+    z-index: 2;
+    position: fixed;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.miniCart h2 {
+  margin-bottom: 0.5em;
+}
+
+.miniCart a {
+  color: #fff;
+}
+
+.miniCart.fadeIn {
+  opacity: 1;
+}
+
+.miniCart td,
+.miniCart th {
+  text-align: center;
+  padding: 0.3em 0.5em;
+  min-width: 5.6em;
+}
+
+.miniCart table {
+  margin: 0 auto;
+}
+
+.close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  text-decoration: underline;
+}

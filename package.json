@@ -1,0 +1,10 @@
+{
+  "name": "nats-theme",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@shopify/slate-tools": "0.12.1"
+  },
+  "dependencies": {
+    "shopify-cartjs": "^0.4.1"
+  }
+}
